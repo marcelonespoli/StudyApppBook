@@ -14,7 +14,7 @@ namespace Tests
         }
 
         [Fact]
-        public void TestnoPublicConstructors()
+        public void TestNoPublicConstructors()
         {
             Type s = typeof(UserDatabaseSource);
             ConstructorInfo[] ctrs = s.GetConstructors();
